@@ -23,7 +23,7 @@ int main()
             case 1: system("cls");
                     cont++;
                     cout<<"\n\tUsted tiene el turno #"<<cont<<" Ingrese sus datos: "<<endl;
-                    std::cin>>X;
+                    cin>>X;
                     if(micola.Enqueue(X)){
                         cout<<"\n"<<endl;
                     }else{
